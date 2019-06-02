@@ -379,7 +379,7 @@ before(): move() {
         <emphasis>After advice</emphasis> on a particular join point runs
         after the program proceeds with that join point.  For example,
         after advice on a method call join point runs after the method body
-        has run, just before before control is returned to the caller.
+        has run, just before control is returned to the caller.
         Because Java programs can leave a join point 'normally' or by
         throwing an exception, there are three kinds of after advice:
         <literal>after returning</literal>, <literal>after
