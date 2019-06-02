@@ -856,7 +856,7 @@ aspect PointBoundsChecking {
         includes the <function>setX</function> method, as well as half of
         the <function>setXY</function> method. In this sense the
         <function>setX</function> pointcut can be seen as involving very
-        fine-grained crosscutting &mdash; it names the the
+        fine-grained crosscutting &mdash; it names the
         <function>setX</function> method and half of the
         <function>setXY</function> method.
       </para>
