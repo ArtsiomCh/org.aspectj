@@ -1526,7 +1526,7 @@ java bean.Demo
       </para>
 
       <para>
-        ColorLabel objects are labels that support the void colorCycle()
+        <classname>ColorLabel</classname> objects are labels that support the <literal>void colorCycle()</literal>
         method. Again, they know nothing about being an observer.
       </para>
 
@@ -1587,7 +1587,7 @@ aspect SubjectObserverProtocolImpl extends SubjectObserverProtocol {
         <literal>stateChanges</literal> pointcut. Now, every time a
         <classname>Button</classname> is clicked, all
         <classname>ColorLabel</classname> objects observing that button
-        will <literal>colorCycle</literal>.
+        will call <literal>colorCycle()</literal> method.
       </para>
     </sect3>
 
