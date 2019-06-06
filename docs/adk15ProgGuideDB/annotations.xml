@@ -255,7 +255,7 @@
 	]]></programlisting>
 
     <para>
-    An annotation on an aspect will be inherited by sub-aspects, iff it has
+    An annotation on an aspect will be inherited by sub-aspects, if it has
     the <literal>@Inherited</literal> meta-annotation.
     </para>
 
